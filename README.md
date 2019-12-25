@@ -104,4 +104,4 @@ community can help you solve it.
 
 Feedback
 =====
--   qchat@qunar.com（Email）
+-   app@startalk.im（Email）
