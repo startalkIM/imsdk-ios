@@ -1,0 +1,21 @@
+[submodule "libqimdatabase-ios"]
+	path = libqimdatabase-ios
+	url = https://github.com/startalkIM/libqimdatabase-ios.git
+[submodule "libqimcommoncategories-ios"]
+	path = libqimcommoncategories-ios
+	url = https://github.com/startalkIM/libqimcommoncategories-ios.git
+[submodule "libqimkitvendor-ios"]
+	path = libqimkitvendor-ios
+	url = https://github.com/startalkIM/libqimkitvendor-ios.git
+[submodule "QIMReactNativeLibrary"]
+	path = QIMReactNativeLibrary
+	url = https://github.com/startalkIM/QIMReactNativeLibrary.git
+[submodule "libqimgeneralmodule-ios"]
+	path = libqimgeneralmodule-ios
+	url = https://github.com/startalkIM/libqimgeneralmodule-ios.git
+[submodule "libqimuikit-ios"]
+	path = libqimuikit-ios
+	url = https://github.com/startalkIM/libqimuikit-ios.git
+[submodule "libqimcommon-ios"]
+	path = libqimcommon-ios
+	url = https://github.com/startalkIM/libqimcommon-ios.git

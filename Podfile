@@ -13,7 +13,19 @@ target 'IMSDK-iOS' do
 
   # Pods for IMSDK-iOS
  
+    $debug = ENV['debug']
+  if $debug
+    pod 'QIMUIKit', path: './libqimuikit-ios'
+    pod 'QIMGeneralModule', path: './libqimgeneralmodule-ios'
+    pod 'QIMCommon', path: './libqimcommon-ios'
+    pod 'QIMKitVendor', path: './libqimkitvendor-ios'
+    pod 'QIMDataBase', path: './libqimdatabase-ios'
+    pod 'QIMCommonCategories', path: './libqimcommoncategories-ios'
+    pod 'QIMReactNativeLibrary', path: './QIMReactNativeLibrary'
+  else
     pod 'QIMUIKit', '~> 4.0'
+  end
+
 end
 
 post_install do |installer_representation|
