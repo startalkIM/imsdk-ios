@@ -4,7 +4,7 @@ ENV["COCOAPODS_DISABLE_STATS"] = "true"
 # 忽略cocoaPods警告
 inhibit_all_warnings!
 
-source 'https://github.com/qunarcorp/libqimkit-ios-cook.git'
+source 'https://github.com/startalkIM/libqimkit-ios-cook.git'
 source 'git@github.com:CocoaPods/Specs.git'
 
 target 'IMSDK-iOS' do

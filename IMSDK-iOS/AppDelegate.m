@@ -228,7 +228,7 @@ void InitCrashReport()
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [QIMKit setQIMProjectType:2];
+    [QIMKit setQIMProjectType:0];
     [self applicationInit];
     [[QIMKit sharedInstance] chooseNewData:YES];
     return YES;
@@ -652,29 +652,29 @@ void InitCrashReport()
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url options:(nonnull NSDictionary<NSString *,id> *)options {
     
     NSLog(@"applicationOpenURL : %@, options : %@", url, options);
-    [[QIMKit sharedInstance] uploadFileForData:[NSData dataWithContentsOfURL:url] forCacheType:QIMFileCacheTypeColoction isFile:YES fileExt:[url pathExtension] completionBlock:^(UIImage *image, NSError *error, QIMFileCacheType cacheType, NSString *imageURL) {
-        NSLog(@"imageUrl : %@", imageURL);
-        if (imageURL.length > 0) {
-            NSString *fileSize = [NSByteCountFormatter stringFromByteCount:[NSData dataWithContentsOfURL:url].length countStyle:NSByteCountFormatterCountStyleFile];
-            NSDictionary *jsonObject = @{@"HttpUrl": imageURL,
-                                         @"FileName": [url lastPathComponent],
-                                         @"FileSize": fileSize,
-                                         @"FileLength": @([NSData dataWithContentsOfURL:url].length)};
-            NSString *extendInfo = [[QIMJSONSerializer sharedInstance] serializeObject:jsonObject];
-            QIMMessageModel *msg = [QIMMessageModel new];
-            [msg setMessage:extendInfo];
-            [msg setMessageType:QIMMessageType_File];
-            [msg setMessageId:[QIMUUIDTools UUID]];
-            [msg setExtendInformation:extendInfo];
-            dispatch_async(dispatch_get_main_queue(), ^{
-                UINavigationController *navigation = (UINavigationController *)application.keyWindow.rootViewController;
-                UIViewController *contactVc = [[QIMSDKUIHelper shareInstance] getContactSelectionVC:msg withExternalForward:YES];
-                UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:contactVc];
-                
-                [navigation presentViewController:nav animated:YES completion:nil];
-            });
-        }
-    }];
+//    [[QIMKit sharedInstance] uploadFileForData:[NSData dataWithContentsOfURL:url] forCacheType:QIMFileCacheTypeColoction isFile:YES fileExt:[url pathExtension] completionBlock:^(UIImage *image, NSError *error, QIMFileCacheType cacheType, NSString *imageURL) {
+//        NSLog(@"imageUrl : %@", imageURL);
+//        if (imageURL.length > 0) {
+//            NSString *fileSize = [NSByteCountFormatter stringFromByteCount:[NSData dataWithContentsOfURL:url].length countStyle:NSByteCountFormatterCountStyleFile];
+//            NSDictionary *jsonObject = @{@"HttpUrl": imageURL,
+//                                         @"FileName": [url lastPathComponent],
+//                                         @"FileSize": fileSize,
+//                                         @"FileLength": @([NSData dataWithContentsOfURL:url].length)};
+//            NSString *extendInfo = [[QIMJSONSerializer sharedInstance] serializeObject:jsonObject];
+//            QIMMessageModel *msg = [QIMMessageModel new];
+//            [msg setMessage:extendInfo];
+//            [msg setMessageType:QIMMessageType_File];
+//            [msg setMessageId:[QIMUUIDTools UUID]];
+//            [msg setExtendInformation:extendInfo];
+//            dispatch_async(dispatch_get_main_queue(), ^{
+//                UINavigationController *navigation = (UINavigationController *)application.keyWindow.rootViewController;
+//                UIViewController *contactVc = [[QIMSDKUIHelper shareInstance] getContactSelectionVC:msg withExternalForward:YES];
+//                UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:contactVc];
+//
+//                [navigation presentViewController:nav animated:YES completion:nil];
+//            });
+//        }
+//    }];
     return YES;
 }
 #endif
