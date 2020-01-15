@@ -57,15 +57,15 @@ Startalk私有云是一种去中心化的部署方式，
      [self.view addSubview:sessionView];
   
   ```
-  [其他接口参考](https://github.com/qunarcorp/imsdk-ios/wiki/QIMSDK-iOS%E6%8E%A5%E5%8F%A3%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E)
+  [其他接口参考](https://github.com/startalkIM/imsdk-ios/wiki/QIMSDK-iOS%E6%8E%A5%E5%8F%A3%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E)
 
 ## 历史版本:
-你可以在当前仓库的 [Release](https://github.com/qunarcorp/imsdk-ios/releases) 进行历史版本下载。
+你可以在当前仓库的 [Release](https://github.com/startalkIM/imsdk-ios/releases) 进行历史版本下载。
 
 ## 更新日志
 
-你可以在 [这里](https://github.com/qunarcorp/imsdk-ios/wiki/QIMSDKDemo-Changelog) 查看IMSDK所有更新信息
+你可以在 [这里](https://github.com/startalkIM/imsdk-ios/wiki/QIMSDKDemo-Changelog) 查看IMSDK所有更新信息
 
 ## 问题反馈
 
--   qchat@qunar.com（邮件）
+-   [app@startalk.im](app@startalk.im)（邮件）
