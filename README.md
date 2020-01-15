@@ -1,5 +1,5 @@
 Startalk, The Best open sourced instant messenger software in the world!
-* [Chinese Version(中文版)](https://github.com/qunarcorp/imsdk-ios/blob/master/README_zh_CN.md)
+* [Chinese Version(中文版)](https://github.com/startalkIM/imsdk-ios/blob/master/README_zh_CN.md)
 
 Public Cloud(Startalk App)
 =====
@@ -7,7 +7,7 @@ Based on Startalk server and client-side, users can build their own domain,
 Sign up an account, create new domains, add users, download client app, and configure navigation for domain,
 After the 5 steps above, you own strong IM abilities.
 
-Download client app [Download](https://im.qunar.com/new/#/download)
+Download client app [Download](https://i.startalk.im/home/#/download)
 
 - Android
 
