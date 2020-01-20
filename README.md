@@ -87,7 +87,7 @@ pod 'QIMUIKit', '~> 4.0'
 
 ### Manual Installation Guide
 
-See more on [Manual install Guide](https://github.com/qunarcorp/imsdk-ios/wiki/QIMSDK-iOS%E6%8E%A5%E5%85%A5%E6%96%87%E6%A1%A3)
+See more on [Manual install Guide](https://github.com/startalkIM/imsdk-ios/wiki/QIMSDK-iOS-%E6%8E%A5%E5%85%A5%E6%96%87%E6%A1%A3)
 
 ### Import headers in your source files
 
