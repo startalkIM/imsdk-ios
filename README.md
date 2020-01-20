@@ -17,7 +17,7 @@ Download client app [Download](https://i.startalk.im/home/#/download)
 
 [![Startalk on iOS](https://qim.qunar.com/file/v2/download/temp/new/82a410a7a85627c123b1a7bd06745b4d.png?w=260&h=260)](https://qim.qunar.com/file/v2/download/temp/new/82a410a7a85627c123b1a7bd06745b4d.png?w=260&h=260)
 
-Configure navigation for client app [Configure navigation](https://im.qunar.com/new/#/platform/access_guide/manage_nav?id=manage_nav_mb)
+Configure navigation for client app [Configure navigation](https://i.startalk.im/home/#/platform/access_guide/config_navs?id=config_navs)
 
 Private Cloud(Startalk SDK)
 =====
@@ -65,7 +65,7 @@ UIView *sessionView = [[QIMSDKUIHelper sharedInstance] getQIMSessionListViewWith
 [self.view addSubview:sessionView];
 ```
 
-- For details about how to use the library and clear examples, see [The detailed How to use](https://github.com/qunarcorp/imsdk-ios/wiki/QIMSDK-iOS%E6%8E%A5%E5%8F%A3%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E)
+- For details about how to use the library and clear examples, see [The detailed How to use](https://github.com/startalkIM/imsdk-ios/wiki/QIMSDK-iOS%E6%8E%A5%E5%8F%A3%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E)
 
 ## Installation
 
