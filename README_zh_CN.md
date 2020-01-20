@@ -9,7 +9,7 @@
 
 客户端下载[下载](https://i.startalk.im/home/#/download)
 
-客户端导航配置[配置导航](https://im.qunar.com/new/#/platform/access_guide/manage_nav?id=manage_nav_mb)
+客户端导航配置[配置导航](https://i.startalk.im/home/#/platform/access_guide/config_navs?id=config_navs)
 
 私有云（Startalk SDK）
 =====
@@ -28,7 +28,7 @@ Startalk私有云是一种去中心化的部署方式，
 2. 使用XCode打开IMSDK-iOS.xcworkspace并运行;
 
 ## 集成
-`imsdk-ios` 目前提供手动集成与Cocoapods集成的方式(IMSDK默认会依赖React-Native0.54版本), 具体步骤参考[集成文档](https://github.com/qunarcorp/imsdk-ios/wiki/QIMSDK-iOS%E6%8E%A5%E5%85%A5%E6%96%87%E6%A1%A3)
+`imsdk-ios` 目前提供手动集成与Cocoapods集成的方式(IMSDK默认会依赖React-Native0.54版本), 具体步骤参考[集成文档](https://github.com/startalkIM/imsdk-ios/wiki/QIMSDK-iOS-%E6%8E%A5%E5%85%A5%E6%96%87%E6%A1%A3)
 
 ## Swift 集成
 
