@@ -1,13 +1,15 @@
 Startalk, The Best open sourced instant messenger software in the world!
+
 * [Chinese Version(中文版)](https://github.com/startalkIM/imsdk-ios/blob/master/README_zh_CN.md)
 
-Public Cloud(Startalk App)
+Public Service(Startalk App)
 =====
-Based on Startalk server and client-side, users can build their own domain,
-Sign up an account, create new domains, add users, download client app, and configure navigation for domain,
-After the 5 steps above, you own strong IM abilities.
+Based on Startalk public service and Startalk client apps, users can build their own IM service using their own domain,
+Sign up an account in our web site, create new domains, add users, download client app, and configure navigation for that domain,
+After the 5 steps above, you own your own IM now.
 
 Download client app [Download](https://i.startalk.im/home/#/download)
+Register new domain in our web site: [Register[(https://i.startalk.im/home/#/register)
 
 - Android
 
@@ -15,13 +17,13 @@ Download client app [Download](https://i.startalk.im/home/#/download)
 
 - iOS
 
-[![Startalk on iOS](https://qim.qunar.com/file/v2/download/temp/new/82a410a7a85627c123b1a7bd06745b4d.png?w=260&h=260)](https://qim.qunar.com/file/v2/download/temp/new/82a410a7a85627c123b1a7bd06745b4d.png?w=260&h=260)
+*temporary unavailable due to App Store certificate problem.
 
 Configure navigation for client app [Configure navigation](https://i.startalk.im/home/#/platform/access_guide/config_navs?id=config_navs)
 
-Private Cloud(Startalk SDK)
+Private Service(Startalk SDK)
 =====
-Private Cloud is a way for decentralized deployment. Customers or enterprises would deploy the back end code on their own servers, embedding SDK into their own app. Every enterprise is an independent node; every node works independently, and the data would only be saved in the node.  
+Private Service is a way for decentralized deployment. Customers or enterprises would deploy the back end code on their own servers, embedding SDK into their own apps. Every enterprise is an independent node; every node works independently, and the data would only be saved in the node.  
 
 Please see the guide of embedding Android SDK and the configuration below.
 
@@ -87,7 +89,7 @@ pod 'QIMUIKit', '~> 4.0'
 
 ### Manual Installation Guide
 
-See more on [Manual install Guide](https://github.com/startalkIM/imsdk-ios/wiki/QIMSDK-iOS-%E6%8E%A5%E5%85%A5%E6%96%87%E6%A1%A3)
+See more on [Manual install Guide](https://github.com/startalkIM/imsdk-ios/wiki/Customized-building-manually)
 
 ### Import headers in your source files
 
@@ -104,4 +106,4 @@ community can help you solve it.
 
 Feedback
 =====
--   app@startalk.im（Email）
+-   app(AT)startalk.im（Email）
